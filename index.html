@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Notícias Cidade</title>
+</head>
+<!-- A classe do body pode variar entre tres-colunas, duas-colunas ou uma coluna. Isso determina o tipo do layout com o tamanho de cada coluna. -->
+<body class="tres-colunas">
+    <!-- INICIO DO CONTAINER -->
+    <div id="container">
+        <header>
+            <a href="./index.html"><img src="./content/logo.png" alt=""></a>
+            <div>
+                <ul>
+                    <li><a href="./index.html" class="primeiro">Home</a></li>
+                    <li><a href="./pags/brasil.html">Brasil</a></li>
+                    <li><a href="#">Internacional</a></li>
+                    <li><a href="#">Economia</a></li>
+                    <li><a href="#">Saúde</a></li>
+                    <li><a href="#">Ciências</a></li>
+                    <li><a href="./pags/fotos.html">Fotos</a></li>
+                </ul>
+            </div>
+        </header>
+        <div id="conteudo">
+            <!-- INICIO NAVEGACAO LATERAL -->
+            <div id="lateral">
+
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li><a href="#">Enrico Nunes</a></li>
+                            <li><a href="#">João Nascimento</a></li>
+                            <li><a href="#">Giorgia Quatrini</a></li>
+                            <li><a href="#">Coronel José</a></li>
+                            <li><a href="#">Sebastian Vettel</a></li>
+                            <li><a href="#">Ramon Dino</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+                        <form action="">
+                            <label for="">Email:</label>
+                            <input type="email" name="" id="email" placeholder="Escreva o seu email">
+                            <input type="submit" value="Cadastrar" class="submit">
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <!-- FIM NAVEGACAO LATERAL -->
+            <!-- INICIO CONTEUDO PRIMARIO -->
+            <div id="primario">
+                
+                <!-- Caixa é a box utilizada para fazer todas as publicações. Basta copiá-la e alterar seu conteúdo para fazer uma nova publicação -->
+                <div class="caixa">
+                    <h2>Destaque</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Nova legislação</h3>
+                        <img src="./content/taxi.jpg" alt="" width="100%">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quo illum nemo soluta assumenda ea, repudiandae excepturi pariatur fugiat. Ipsa eveniet eligendi illum mollitia odio, aperiam voluptate aut suscipit maiores!</p>
+                        <a href="#">Leia mais!</a>
+                    </div>
+                </div>
+
+                <!-- INICIO LISTAGEM CONTEUDO PRINCIPAL -->
+                <div class="caixa">
+                    <h2>Mundo</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="#">
+                                    <img src="./content/tecnologia.jpg" alt="" width="80px">
+                                    <h3>Novas Tecnologias</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur...
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="./content/tecnologia.jpg" alt="" width="80px">
+                                    <h3>Novas Tecnologias</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur...
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="./content/tecnologia.jpg" alt="" width="80px">
+                                    <h3>Novas Tecnologias</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur...
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="./content/tecnologia.jpg" alt="" width="80px">
+                                    <h3>Novas Tecnologias</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- FIM DA LISTAGEM CONTEUDO PRINCIPAL -->
+
+            </div>
+            <!-- FIM DO CONTEUDO PRIMARIO -->
+            <!-- INICIO CONTEUDO SECUNDARIO -->
+            <div id="secundario">
+
+                <div class="caixa">
+                    <h2>Última entrevista</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Entrevista com João Silva</h3>
+                        <img src="./content/doutor.jpg" alt="" width="100%">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quo illum nemo soluta assumenda ea, repudiandae excepturi pariatur fugiat. Ipsa eveniet eligendi illum mollitia odio, aperiam voluptate aut suscipit maiores!</p>
+                        <a href="#">Leia mais!</a>
+                    </div>
+                </div>
+
+            <!-- INICIO LISTAGEM CONTEUDO SECUNDARIO -->
+                <div class="caixa">
+                    <h2>Notícias recentes</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="#">
+                                    <img src="./content/taxi.jpg" alt="" width="80px">
+                                    <h3>Novas Tecnologias</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur...
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="./content/mundo.jpg" alt="" width="80px">
+                                    <h3>Novas Tecnologias</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur...
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="./content/tecnologia.jpg" alt="" width="80px">
+                                    <h3>Novas Tecnologias</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur...
+                                    </p>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#">
+                                    <img src="./content/doutor.jpg" alt="" width="80px">
+                                    <h3>Novas Tecnologias</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            <!-- FIM LISTAGEM CONTEUDO SECUNDARIO -->
+            </div>   
+            <!-- FIM CONTEUDO SECUNDARIO -->
+        </div>
+        
+    </div>
+    <!-- FIM DO CONTAINER -->
+    <footer>
+        <div id="rodape">
+            &copy; Copyright 2000-2023 Notícias Cidade
+        </div>
+    </footer>
+</body>
+</html>
